@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.springframework.security:spring-security-messaging:5.0.5.RELEASE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-messaging/5.0.5.RELEASE/2c6636a5da678e3b0e674a61b291d2705845ed7a/spring-security-messaging-5.0.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-messaging/5.0.5.RELEASE/83071b814612defd7717c4faba0e9642c8f41b7d/spring-security-messaging-5.0.5.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
