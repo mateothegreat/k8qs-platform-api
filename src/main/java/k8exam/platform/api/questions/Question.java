@@ -2,8 +2,10 @@ package k8exam.platform.api.questions;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import k8exam.platform.api.answers.Answer;
 import k8exam.platform.api.categories.Category;
 import k8exam.platform.api.tags.Tag;
+import k8exam.platform.api.users.User;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -40,9 +42,18 @@ public class Question {
     @ManyToMany(fetch = FetchType.LAZY, cascade = {CascadeType.PERSIST, CascadeType.MERGE})
     List<Tag> tags = new ArrayList<>();
 
+    private QuestionType questionType;
+
+    @JsonBackReference
+    @ManyToMany(fetch = FetchType.LAZY, cascade = {CascadeType.PERSIST, CascadeType.MERGE})
+    List<Answer> answers = new ArrayList<>();
+
     private String name;
     private String description;
     private Double score;
     private int    weight;
+
+    @OneToOne
+    private User createdBy;
 
 }

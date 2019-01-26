@@ -38,6 +38,7 @@ public class AppConfig {
                 registry.addMapping("/**")
                         .allowedMethods("GET", "POST", "PUT", "DELETE")
                         .allowedOrigins("https://k8exam.com",
+                                        "http://localhost:4200",
                                         "http://localhost:4204").allowedHeaders("*");
 
             }
