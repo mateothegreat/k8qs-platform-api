@@ -12,7 +12,7 @@ spring:
     #        usertype:
     #          autoRegisterUserTypes: true
     hibernate:
-      ddl-auto: ${DDL_AUTO:none}
+      ddl-auto: ${DDL_AUTO:update}
 
   datasource:
     driverClassName: com.mysql.jdbc.Driver

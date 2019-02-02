@@ -28,14 +28,6 @@
       <change afterPath="$PROJECT_DIR$/../../java-springboot-byexamples-banker/gradlew" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../java-springboot-byexamples-banker/gradlew.bat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../java-springboot-byexamples-banker/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_projectlombok_lombok_1_18_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/k8exam/platform/api/categories/CategoriesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/k8exam/platform/api/categories/CategoriesRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/k8exam/platform/api/categories/CategoriesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/k8exam/platform/api/categories/CategoryCreate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/k8exam/platform/api/questions/QuestionCreateCategory.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../php-dynamic-content/.idea/php.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../php-dynamic-content/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../php-dynamic-content/data.json" afterDir="false" />
@@ -131,6 +123,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/k8exam-platform-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/k8exam-platform-api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manifests/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/manifests/deployment.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/answers/Answer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/answers/Answer.class" afterDir="false" />
@@ -140,12 +133,6 @@
       <change beforePath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/categories/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/categories/Category.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/configuration/AppConfig$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/configuration/AppConfig$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/configuration/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/configuration/AppConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/questions/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/questions/Question.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/questions/QuestionCreate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/questions/QuestionCreate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/questions/QuestionCreateAnswer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/questions/QuestionCreateAnswer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/questions/QuestionsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/questions/QuestionsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/questions/QuestionsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/questions/QuestionsRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/questions/QuestionsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/questions/QuestionsService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/users/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/users/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/k8exam/platform/api/answers/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/k8exam/platform/api/answers/Answer.java" afterDir="false" />
@@ -202,6 +189,15 @@
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="k8exam: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mysql.matthewdavis.io" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mysql.matthewdavis.io" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
     </expand>
     <select />
@@ -305,13 +301,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Makefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state relative-caret-position="648">
+              <caret line="27" column="75" selection-start-line="27" selection-start-column="75" selection-end-line="27" selection-end-column="75" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f4a16c94-b50f-4e05-a7bd-0f492d4be30f/console.sql">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -357,11 +358,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+            <state relative-caret-position="336">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -537,7 +538,6 @@
         <option value="$PROJECT_DIR$/src/main/java/k8exam/platform/api/categories/CategoriesRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/k8exam/platform/api/questions/QuestionsRepository.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yaml" />
         <option value="$PROJECT_DIR$/src/main/java/k8exam/platform/api/users/User.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/k8exam/platform/api/configuration/AppConfig.java" />
@@ -549,6 +549,7 @@
         <option value="$PROJECT_DIR$/manifests/deployment.yaml" />
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yaml" />
       </list>
     </option>
   </component>
@@ -591,6 +592,28 @@
               <item name="k8exam-platform-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k8exam-platform-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k8exam-platform-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k8exam-platform-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="k8exam-platform-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="k8exam-platform-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="f4a16c94-b50f-4e05-a7bd-0f492d4be30f" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
             </path>
           </expand>
           <select />
@@ -793,13 +816,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/tags/Tag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/tags/TagCreate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1010,13 +1026,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
@@ -1187,8 +1196,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Makefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="648">
+          <caret line="27" column="75" selection-start-line="27" selection-start-column="75" selection-end-line="27" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f4a16c94-b50f-4e05-a7bd-0f492d4be30f/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
         </state>
       </provider>
     </entry>
