@@ -1,10 +1,18 @@
 package k8exam.platform.api.questions;
 
+import k8exam.platform.api.answers.Answer;
+import k8exam.platform.api.categories.CategoriesService;
+import k8exam.platform.api.categories.Category;
+import k8exam.platform.api.users.User;
+import k8exam.platform.api.users.UsersService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
+import java.security.Principal;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
@@ -12,11 +20,17 @@ import java.util.UUID;
 public class QuestionsService {
 
     private final QuestionsRepository questionsRepository;
+    private final CategoriesService   categoriesService;
+    private final UsersService        usersService;
 
     @Autowired
-    public QuestionsService(final QuestionsRepository questionsRepository) {
+    public QuestionsService(final QuestionsRepository questionsRepository,
+                            final CategoriesService categoriesService,
+                            final UsersService usersService) {
 
         this.questionsRepository = questionsRepository;
+        this.categoriesService = categoriesService;
+        this.usersService = usersService;
 
     }
 
@@ -38,31 +52,69 @@ public class QuestionsService {
 
     }
 
-    public Question saveOrUpdate(QuestionCreate questionCreate) {
+    public Optional<Question> saveOrUpdate(QuestionCreate questionCreate, Principal principal) {
 
         Optional<Question> optionalQuestion = getByName(questionCreate.getName());
+        Optional<Category> optionalCategory = categoriesService.getByUUID(questionCreate.getCategory());
+        Optional<User>     optionalUser     = usersService.getPrincipalUser(principal);
 
-        if (optionalQuestion.isPresent()) {
+        if (optionalQuestion.isPresent() && optionalCategory.isPresent() && optionalUser.isPresent()) {
 
-            optionalQuestion.get().setCategory(questionCreate.getCategory());
+            optionalQuestion.get().getCategories().add(optionalCategory.get());
             optionalQuestion.get().setQuestionType(questionCreate.getType());
             optionalQuestion.get().setDescription(questionCreate.getDescription());
+            optionalQuestion.get().setCreatedBy(optionalUser.get());
 
-            return questionsRepository.save(optionalQuestion.get());
+            return Optional.of(questionsRepository.save(optionalQuestion.get()));
 
         } else {
 
-            Question question = new Question();
+            if (optionalCategory.isPresent() && optionalUser.isPresent()) {
 
-            question.setUuid(UUID.randomUUID());
-            question.setName(questionCreate.getName());
-            question.setDescription(questionCreate.getDescription());
-            question.setCategory(questionCreate.getCategory());
-            question.setQuestionType(questionCreate.getType());
+                Question question = new Question();
 
-            return questionsRepository.save(question);
+                question.setUuid(UUID.randomUUID());
+                question.setName(questionCreate.getName());
+                question.setDescription(questionCreate.getDescription());
+                question.getCategories().add(optionalCategory.get());
+                question.setQuestionType(questionCreate.getType());
+                question.setCreatedBy(optionalUser.get());
+
+                List<Answer> answers = new ArrayList<>();
+
+                questionCreate.getAnswers().forEach(answer -> {
+
+                    answers.add(new Answer(UUID.randomUUID(), answer.getSelected(), answer.getValue(), answer.getDescription(), answer.getScore()));
+
+                });
+
+                Question saved = questionsRepository.save(question);
+
+                saved.setAnswers(answers);
+
+                return Optional.of(questionsRepository.save(saved));
+
+            }
 
         }
+
+        return Optional.empty();
+
+    }
+
+    public Boolean deleteByUUID(UUID uuid, Principal principal) {
+
+        Optional<Question> optionalQuestion = getByUUID(uuid);
+
+        if (optionalQuestion.isPresent()) {
+
+            questionsRepository.delete(optionalQuestion.get());
+
+            return true;
+
+        }
+
+        return false;
 
     }
 

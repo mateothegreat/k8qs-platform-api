@@ -50,7 +50,7 @@ public class AnswersService {
 
         } else {
 
-            return answersRepository.save(new Answer(UUID.randomUUID(), answerCreate.getValue(), answerCreate.getDescription()));
+            return answersRepository.save(new Answer(UUID.randomUUID(), answerCreate.getSelected(), answerCreate.getValue(), answerCreate.getDescription(), answerCreate.getScore()));
 
         }
 

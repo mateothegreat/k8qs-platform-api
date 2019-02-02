@@ -7,6 +7,7 @@ public class QuestionCreateAnswer {
 
     private String  value;
     private String  description;
-    private Boolean right;
-
+    private Boolean selected;
+    private Double  score;
+    
 }

@@ -7,7 +7,7 @@ import java.util.Optional;
 import java.util.UUID;
 
 @Repository
-public interface QuestionsRepository extends PagingAndSortingRepository<Question, UUID> {
+public interface QuestionsRepository extends PagingAndSortingRepository<Question, Long> {
 
     Optional<Question> getByUuid(UUID uuid);
 

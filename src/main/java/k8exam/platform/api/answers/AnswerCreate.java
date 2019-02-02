@@ -5,7 +5,9 @@ import lombok.Data;
 @Data
 public class AnswerCreate {
 
-    private String value;
-    private String description;
+    private Boolean selected;
+    private String  value;
+    private String  description;
+    private Double  score;
 
 }

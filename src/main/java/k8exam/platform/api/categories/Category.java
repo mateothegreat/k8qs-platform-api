@@ -1,13 +1,12 @@
 package k8exam.platform.api.categories;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonManagedReference;
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import k8exam.platform.api.questions.Question;
-import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
 import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.GenericGenerator;
+import org.hibernate.validator.constraints.Range;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
@@ -17,22 +16,31 @@ import java.util.UUID;
 
 @Data
 @Entity
-@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
+//@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 @Table(name = "categories")
-@NoArgsConstructor
-@AllArgsConstructor
-@ToString
+//@NoArgsConstructor
+//@AllArgsConstructor
+//@ToString
 public class Category {
 
     @Id
+    @JsonIgnore
+    @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
+    @GenericGenerator(name = "native", strategy = "native")
+    @Range(max = 4294967295L)
+    @Column(nullable = false, updatable = false, unique = true)
+    private Long id;
+
     @Column(name = "uuid", updatable = false, nullable = false, unique = true, columnDefinition = "BINARY(16)")
     private UUID uuid;
 
     @CreationTimestamp
     private LocalDateTime stampCreated;
 
-    @JsonManagedReference
-    @OneToMany(fetch = FetchType.LAZY, cascade = {CascadeType.PERSIST, CascadeType.MERGE})
+    @JsonBackReference
+//    @JsonIgnoreProperties("categories")
+//    @OneToMany(mappedBy = "category", fetch = FetchType.LAZY, cascade = {CascadeType.PERSIST, CascadeType.MERGE})
+    @ManyToMany(fetch = FetchType.EAGER)
     List<Question> questions = new ArrayList<>();
 
     private String name;

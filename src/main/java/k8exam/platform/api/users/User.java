@@ -43,7 +43,6 @@ public class User implements UserDetails {
 
     @ManyToOne(optional = false, fetch = FetchType.LAZY)
     @JsonManagedReference
-    @JsonIgnore
     private Organization organization;
 
     @ManyToMany(cascade = CascadeType.ALL)

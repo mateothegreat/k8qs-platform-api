@@ -8,9 +8,9 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5InnoDBDialect
         format_sql: ${DEBUG:false}
-      jaria:
-        usertype:
-          autoRegisterUserTypes: true
+    #      jaria:
+    #        usertype:
+    #          autoRegisterUserTypes: true
     hibernate:
       ddl-auto: ${DDL_AUTO:none}
 
