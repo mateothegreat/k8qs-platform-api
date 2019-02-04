@@ -28,6 +28,31 @@
       <change afterPath="$PROJECT_DIR$/../../java-springboot-byexamples-banker/gradlew" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../java-springboot-byexamples-banker/gradlew.bat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../java-springboot-byexamples-banker/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../k8exam-platform-ui/src/app/_lib/AutofocusDirective.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../k8exam-platform-ui/src/app/_lib/HttpErrorInterceptor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../k8exam-platform-ui/src/app/_lib/JwtInterceptor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../k8exam-platform-ui/src/app/_lib/Utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../k8exam-platform-ui/src/app/footer/footer.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../k8exam-platform-ui/src/app/footer/footer.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../k8exam-platform-ui/src/app/footer/footer.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../k8exam-platform-ui/src/app/footer/footer.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../k8exam-platform-ui/src/app/shared/shared.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../k8exam-platform-ui/src/app/sidenav/sidenav.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../k8exam-platform-ui/src/app/sidenav/sidenav.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../k8exam-platform-ui/src/app/sidenav/sidenav.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../k8exam-platform-ui/src/app/sidenav/sidenav.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../k8exam-platform-ui/src/assets/bg-material-blue-dark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../k8exam-platform-ui/src/assets/bg-material-grey-dark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../k8exam-platform-ui/src/assets/bg-poly-dark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../k8exam-platform-ui/src/assets/k8-logo-50x50-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../k8exam-platform-ui/src/assets/k8-logo-50x50-grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../k8exam-platform-ui/src/assets/k8-logo-half.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../k8exam-platform-ui/src/assets/k8-logo-half.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../k8exam-platform-ui/src/assets/logo-inline-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../k8exam-platform-ui/src/assets/logo-inline-green-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../k8exam-platform-ui/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../k8exam-platform-ui/src/assets/loog-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../k8exam-platform-ui/src/assets/loog-light.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../php-dynamic-content/.idea/php.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../php-dynamic-content/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../php-dynamic-content/data.json" afterDir="false" />
@@ -44,16 +69,116 @@
       <change beforePath="$PROJECT_DIR$/../k8exam-platform-admin" beforeDir="false" afterPath="$PROJECT_DIR$/../k8exam-platform-admin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f4a16c94-b50f-4e05-a7bd-0f492d4be30f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f4a16c94-b50f-4e05-a7bd-0f492d4be30f.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8da68590-e938-46c5-9fa8-2b96c5e48ee8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8da68590-e938-46c5-9fa8-2b96c5e48ee8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_stephenc_jcip_jcip_annotations_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_api_api_common_1_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_api_client_google_api_client_1_27_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_api_gax_1_35_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_api_gax_httpjson_0_52_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_api_grpc_proto_google_common_protos_1_12_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_api_grpc_proto_google_iam_v1_0_12_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_apis_google_api_services_storage_v1_rev20181013_1_27_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_auth_google_auth_library_credentials_0_12_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_auth_google_auth_library_oauth2_http_0_12_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_cloud_google_cloud_core_1_53_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_cloud_google_cloud_core_http_1_53_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_cloud_google_cloud_storage_1_53_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_errorprone_error_prone_annotations_2_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_26_0_android.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_http_client_google_http_client_1_27_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_http_client_google_http_client_appengine_1_27_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_http_client_google_http_client_jackson2_1_27_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_oauth_client_google_oauth_client_1_27_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_protobuf_protobuf_java_3_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_protobuf_protobuf_java_util_3_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_mashape_unirest_unirest_java_1_4_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_microsoft_azure_adal4j_1_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_nimbusds_lang_tag_1_4_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_nimbusds_nimbus_jose_jwt_6_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_nimbusds_oauth2_oidc_sdk_5_24_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_rabbitmq_amqp_client_5_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sendgrid_java_http_client_4_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sendgrid_sendgrid_java_4_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp_logging_interceptor_2_7_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp_okhttp_2_7_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp_okhttp_ws_2_7_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_context_1_12_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_kubernetes_client_java_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_kubernetes_client_java_api_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_kubernetes_client_java_proto_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_opencensus_opencensus_api_0_15_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_opencensus_opencensus_contrib_http_util_0_15_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_sundr_builder_annotations_0_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_sundr_resourcecify_annotations_0_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_sundr_sundr_codegen_0_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_sundr_sundr_core_0_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_swagger_swagger_annotations_1_5_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_activation_activation_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_mail_mail_1_4_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__joda_time_joda_time_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_collections4_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_compress_1_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpasyncclient_4_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_nio_4_4_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bouncycastle_bcpkix_jdk15on_1_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bouncycastle_bcprov_ext_jdk15on_1_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bouncycastle_bcprov_jdk15on_1_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_checkerframework_checker_compat_qual_2_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_joda_joda_convert_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_json_json_20160212.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_projectlombok_lombok_1_18_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_amqp_spring_amqp_2_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_amqp_spring_rabbit_2_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_amqp_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_websocket_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_retry_spring_retry_1_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_websocket_5_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_threeten_threetenbp_1_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/k8exam/platform/api/configuration/AppConfig$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/k8exam/platform/api/configuration/AppConfig$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/k8exam-platform-api.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/k8exam-platform-api.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8exam-platform-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/k8exam-platform-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifests/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/manifests/deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/answers/Answer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/answers/Answer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/answers/AnswerCreate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/answers/AnswerCreate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/answers/AnswersRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/answers/AnswersRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/answers/AnswersService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/answers/AnswersService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/categories/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/categories/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/configuration/AppConfig$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/configuration/AppConfig$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/configuration/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/configuration/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/users/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/k8exam/platform/api/users/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/k8exam/platform/api/answers/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/k8exam/platform/api/answers/Answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/k8exam/platform/api/answers/AnswerCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/k8exam/platform/api/answers/AnswerCreate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/k8exam/platform/api/answers/AnswersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/k8exam/platform/api/answers/AnswersRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/k8exam/platform/api/answers/AnswersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/k8exam/platform/api/answers/AnswersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/k8exam/platform/api/categories/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/k8exam/platform/api/categories/Category.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/k8exam/platform/api/configuration/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/k8exam/platform/api/configuration/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/k8exam/platform/api/questions/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/k8exam/platform/api/questions/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/k8exam/platform/api/questions/QuestionCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/k8exam/platform/api/questions/QuestionCreate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/k8exam/platform/api/questions/QuestionCreateAnswer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/k8exam/platform/api/questions/QuestionCreateAnswer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/k8exam/platform/api/questions/QuestionsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/k8exam/platform/api/questions/QuestionsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/k8exam/platform/api/questions/QuestionsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/k8exam/platform/api/questions/QuestionsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/k8exam/platform/api/questions/QuestionsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/k8exam/platform/api/questions/QuestionsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/k8exam/platform/api/users/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/k8exam/platform/api/users/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ng-byexamples/ng-byexamples-observables/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ng-byexamples/ng-byexamples-observables/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ng-byexamples/ng-byexamples-observables/.idea/ng-byexamples-observables.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ng-byexamples/ng-byexamples-observables/.idea/ng-byexamples-observables.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ng-byexamples/ng-byexamples-observables/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ng-byexamples/ng-byexamples-observables/.idea/workspace.xml" afterDir="false" />
@@ -112,6 +237,10 @@
       </path>
     </expand>
     <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -178,12 +307,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/configuration/AppConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+            <state relative-caret-position="384">
+              <caret line="19" column="148" selection-start-line="19" selection-start-column="148" selection-end-line="19" selection-end-column="148" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1145#1619#0" expanded="true" />
-                <element signature="e#1618#1619#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -192,12 +319,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/questions/QuestionsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="911">
+            <state relative-caret-position="744">
               <caret line="111" selection-start-line="111" selection-end-line="111" />
               <folding>
                 <element signature="method#saveOrUpdate#0;class#QuestionsService#0" expanded="true" />
-                <element signature="e#2032#2431#1" />
-                <element signature="e#3058#3238#0" />
               </folding>
             </state>
           </provider>
@@ -215,21 +340,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Makefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="835">
+              <caret line="35" column="62" lean-forward="true" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f4a16c94-b50f-4e05-a7bd-0f492d4be30f/console.sql">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/categories/Category.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
+            <state relative-caret-position="336">
               <caret line="26" column="9" selection-start-line="26" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -261,6 +381,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/categories/CategoriesService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="744">
+              <caret line="47" column="8" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#update#0;class#CategoriesService#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="576">
@@ -272,8 +405,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="600">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f4a16c94-b50f-4e05-a7bd-0f492d4be30f/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/categories/CategoriesController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -299,7 +450,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/questions/Question.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="626">
+            <state relative-caret-position="792">
               <caret line="48" column="70" selection-start-line="48" selection-start-column="70" selection-end-line="48" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -309,27 +460,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/organizations/OrganizationsController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
-              <caret line="89" selection-start-line="89" selection-end-line="89" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/organizations/Organization.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/users/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
+            <state relative-caret-position="1032">
               <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
             </state>
           </provider>
@@ -338,7 +471,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/users/UsersService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="662">
+            <state relative-caret-position="504">
               <caret line="174" selection-start-line="174" selection-end-line="174" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -353,7 +486,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/answers/Answer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="709">
+            <state relative-caret-position="600">
               <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -366,7 +499,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/questions/QuestionCreate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
+            <state relative-caret-position="288">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -378,7 +511,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/questions/QuestionsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="711">
+            <state relative-caret-position="552">
               <caret line="47" column="84" selection-start-line="47" selection-start-column="84" selection-end-line="47" selection-end-column="84" />
               <folding>
                 <element signature="method#QuestionsController#0;class#QuestionsController#0" expanded="true" />
@@ -410,7 +543,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/k8exam/platform/api/users/UsersRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/k8exam/platform/api/logging/LogsRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/k8exam/platform/api/organizations/OrganizationsController.java" />
         <option value="$PROJECT_DIR$/src/main/java/k8exam/platform/api/organizations/links/OrganizationLink.java" />
@@ -458,8 +590,9 @@
         <option value="$PROJECT_DIR$/manifests/deployment.yaml" />
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/Makefile" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yaml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f4a16c94-b50f-4e05-a7bd-0f492d4be30f/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yaml" />
         <option value="$PROJECT_DIR$/src/main/java/k8exam/platform/api/configuration/AppConfig.java" />
       </list>
     </option>
@@ -479,8 +612,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -518,6 +651,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k8exam-platform-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k8exam-platform-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="categories" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="k8exam-platform-api" type="b2602c69:ProjectViewProjectNode" />
@@ -564,6 +706,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -681,7 +824,7 @@
     <frame x="1026" y="28" width="2654" height="2083" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14719446" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14834742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -689,7 +832,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3299389" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3996945" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3996945" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -697,7 +840,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Spring" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3299389" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3299389" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="13" weight="0.3299389" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.3299389" />
@@ -789,13 +932,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/categories/CategoriesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="30" column="59" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/questions/QuestionType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -821,17 +957,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/categories/CategoriesService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#create#0;class#CategoriesService#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -901,20 +1026,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://8da68590-e938-46c5-9fa8-2b96c5e48ee8/schema/k8exam/table/question_answers">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://8da68590-e938-46c5-9fa8-2b96c5e48ee8/schema/k8exam/table/question">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://8da68590-e938-46c5-9fa8-2b96c5e48ee8/schema/k8exam/table/question_answers" />
+    <entry file="das://8da68590-e938-46c5-9fa8-2b96c5e48ee8/schema/k8exam/table/question" />
     <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/questions/QuestionsRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -943,10 +1056,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="das://8da68590-e938-46c5-9fa8-2b96c5e48ee8/schema/k8exam/table/questions_categories_links">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        <state relative-caret-position="380">
+          <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://8da68590-e938-46c5-9fa8-2b96c5e48ee8/schema/k8exam/table/questions">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://8da68590-e938-46c5-9fa8-2b96c5e48ee8/schema/k8exam/table/answers">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/questions/QuestionsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+          <folding>
+            <element signature="method#saveOrUpdate#0;class#QuestionsService#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifests/deployment.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/categories/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="26" column="9" selection-start-line="26" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://8da68590-e938-46c5-9fa8-2b96c5e48ee8/schema/k8exam/table/categories">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -961,151 +1139,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://8da68590-e938-46c5-9fa8-2b96c5e48ee8/schema/k8exam/table/questions_categories_links">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://8da68590-e938-46c5-9fa8-2b96c5e48ee8/schema/k8exam/table/categories">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/List.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
+        <state relative-caret-position="576">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/categories/Category.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/categories/CategoriesController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="26" column="9" selection-start-line="26" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/answers/Answer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
-          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Answer#0;class#Answer#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/users/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/users/UsersService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="174" selection-start-line="174" selection-end-line="174" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getPrincipalUser#0;class#UsersService#0" expanded="true" />
-            <element signature="method#getByUserId#0;class#UsersService#0" expanded="true" />
-            <element signature="method#getByEmailAndPassword#0;class#UsersService#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/questions/QuestionCreate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://8da68590-e938-46c5-9fa8-2b96c5e48ee8/schema/k8exam/table/questions">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/questions/QuestionsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="711">
-          <caret line="47" column="84" selection-start-line="47" selection-start-column="84" selection-end-line="47" selection-end-column="84" />
-          <folding>
-            <element signature="method#QuestionsController#0;class#QuestionsController#0" expanded="true" />
-            <element signature="method#findAll#0;class#QuestionsController#0" expanded="true" />
-            <element signature="method#getByUUID#0;class#QuestionsController#0" expanded="true" />
-            <element signature="method#delete#0;class#QuestionsController#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/questions/Question.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="48" column="70" selection-start-line="48" selection-start-column="70" selection-end-line="48" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://8da68590-e938-46c5-9fa8-2b96c5e48ee8/schema/k8exam/table/answers">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/questions/QuestionsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="911">
-          <caret line="111" selection-start-line="111" selection-end-line="111" />
-          <folding>
-            <element signature="method#saveOrUpdate#0;class#QuestionsService#0" expanded="true" />
-            <element signature="e#2032#2431#1" />
-            <element signature="e#3058#3238#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manifests/deployment.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f4a16c94-b50f-4e05-a7bd-0f492d4be30f/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="432">
+          <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -1123,21 +1167,108 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/questions/Question.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="48" column="70" selection-start-line="48" selection-start-column="70" selection-end-line="48" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/users/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1032">
+          <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/users/UsersService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="174" selection-start-line="174" selection-end-line="174" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getPrincipalUser#0;class#UsersService#0" expanded="true" />
+            <element signature="method#getByUserId#0;class#UsersService#0" expanded="true" />
+            <element signature="method#getByEmailAndPassword#0;class#UsersService#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/answers/Answer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Answer#0;class#Answer#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/questions/QuestionCreate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/questions/QuestionsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="47" column="84" selection-start-line="47" selection-start-column="84" selection-end-line="47" selection-end-column="84" />
+          <folding>
+            <element signature="method#QuestionsController#0;class#QuestionsController#0" expanded="true" />
+            <element signature="method#findAll#0;class#QuestionsController#0" expanded="true" />
+            <element signature="method#getByUUID#0;class#QuestionsController#0" expanded="true" />
+            <element signature="method#delete#0;class#QuestionsController#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/categories/CategoriesService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="47" column="8" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#update#0;class#CategoriesService#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f4a16c94-b50f-4e05-a7bd-0f492d4be30f/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Makefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="835">
+          <caret line="35" column="62" lean-forward="true" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/k8exam/platform/api/configuration/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+        <state relative-caret-position="384">
+          <caret line="19" column="148" selection-start-line="19" selection-start-column="148" selection-end-line="19" selection-end-column="148" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1145#1619#0" expanded="true" />
-            <element signature="e#1618#1619#0" expanded="true" />
           </folding>
         </state>
       </provider>

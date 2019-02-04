@@ -16,9 +16,9 @@ spring:
 
   datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:6603}/${MYSQL_DATABASE:k8exam}?allowPublicKeyRetrieval=true&reconnect=true&verifyServerCertificate=false&useSSL=false
-    username: ${MYSQL_USER:root}
-    password: ${MYSQL_PASS:mysql}
+    url: jdbc:mysql://${MYSQL_HOST:mysql.matthewdavis.io}:${MYSQL_PORT:3306}/${MYSQL_DATABASE:k8exam}?allowPublicKeyRetrieval=true&reconnect=true&verifyServerCertificate=false&useSSL=false
+    username: ${MYSQL_USER:k8exam}
+    password: ${MYSQL_PASS:08943ja4fh983a3no34llkl}
 
   jackson:
     serialization:
