@@ -1,8 +1,8 @@
 package k8exam.platform.api.questions;
 
 import k8exam.platform.api.answers.Answer;
-import k8exam.platform.api.categories.CategoriesService;
-import k8exam.platform.api.categories.Category;
+import k8exam.platform.api.questions.categories.QuestionCategoriesService;
+import k8exam.platform.api.questions.categories.QuestionCategory;
 import k8exam.platform.api.users.User;
 import k8exam.platform.api.users.UsersService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,17 +19,15 @@ import java.util.UUID;
 @Service
 public class QuestionsService {
 
-    private final QuestionsRepository questionsRepository;
-    private final CategoriesService   categoriesService;
-    private final UsersService        usersService;
+    private final QuestionsRepository       questionsRepository;
+    private final QuestionCategoriesService questionCategoriesService;
+    private final UsersService              usersService;
 
     @Autowired
-    public QuestionsService(final QuestionsRepository questionsRepository,
-                            final CategoriesService categoriesService,
-                            final UsersService usersService) {
+    public QuestionsService(final QuestionsRepository questionsRepository, final QuestionCategoriesService questionCategoriesService, final UsersService usersService) {
 
         this.questionsRepository = questionsRepository;
-        this.categoriesService = categoriesService;
+        this.questionCategoriesService = questionCategoriesService;
         this.usersService = usersService;
 
     }
@@ -54,9 +52,9 @@ public class QuestionsService {
 
     public Optional<Question> saveOrUpdate(QuestionCreate questionCreate, Principal principal) {
 
-        Optional<Question> optionalQuestion = getByName(questionCreate.getName());
-        Optional<Category> optionalCategory = categoriesService.getByUUID(questionCreate.getCategory());
-        Optional<User>     optionalUser     = usersService.getPrincipalUser(principal);
+        Optional<Question>         optionalQuestion = getByName(questionCreate.getName());
+        Optional<QuestionCategory> optionalCategory = questionCategoriesService.getByUUID(questionCreate.getCategory());
+        Optional<User>             optionalUser     = usersService.getPrincipalUser(principal);
 
         if (optionalQuestion.isPresent() && optionalCategory.isPresent() && optionalUser.isPresent()) {
 

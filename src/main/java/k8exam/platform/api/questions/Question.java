@@ -3,7 +3,7 @@ package k8exam.platform.api.questions;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import k8exam.platform.api.answers.Answer;
-import k8exam.platform.api.categories.Category;
+import k8exam.platform.api.questions.categories.QuestionCategory;
 import k8exam.platform.api.tags.Tag;
 import k8exam.platform.api.users.User;
 import lombok.Data;
@@ -49,7 +49,7 @@ public class Question {
     @ManyToMany(fetch = FetchType.LAZY, cascade = {CascadeType.REMOVE, CascadeType.PERSIST, CascadeType.MERGE})
 //    @JsonIgnoreProperties("questions")
     @JoinTable(name = "questions_categories_links", joinColumns = {@JoinColumn(name = "question")}, inverseJoinColumns = {@JoinColumn(name = "category")})
-    private List<Category> categories = new ArrayList<>();
+    private List<QuestionCategory> categories = new ArrayList<>();
 
     //    @JsonBackReference
     @ManyToMany(fetch = FetchType.LAZY, cascade = {CascadeType.REMOVE, CascadeType.PERSIST, CascadeType.MERGE})

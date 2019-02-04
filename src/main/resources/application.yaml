@@ -2,7 +2,9 @@ server:
   port: 10082
 
 spring:
-
+  data:
+    rest:
+      detection-strategy: explicit_method_annotated
   jpa:
     show-sql: ${DEBUG:false}
     properties:
