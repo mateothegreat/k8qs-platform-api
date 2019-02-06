@@ -2,23 +2,24 @@ server:
   port: 10082
 
 spring:
+  data:
+    rest:
+      detection-strategy: explicit_method_annotated
   jpa:
     show-sql: ${DEBUG:false}
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5InnoDBDialect
         format_sql: ${DEBUG:false}
-    #      jaria:
-    #        usertype:
-    #          autoRegisterUserTypes: true
+
     hibernate:
-      ddl-auto: ${DDL_AUTO:none}
+      ddl-auto: ${DDL_AUTO:update}
 
   datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:6603}/${MYSQL_DATABASE:k8exam}?allowPublicKeyRetrieval=true&reconnect=true&verifyServerCertificate=false&useSSL=false
-    username: ${MYSQL_USER:root}
-    password: ${MYSQL_PASS:mysql}
+    url: jdbc:mysql://${MYSQL_HOST:mysql.matthewdavis.io}:${MYSQL_PORT:3306}/${MYSQL_DATABASE:k8exam}?allowPublicKeyRetrieval=true&reconnect=true&verifyServerCertificate=false&useSSL=false
+    username: ${MYSQL_USER:k8exam}
+    password: ${MYSQL_PASS:08943ja4fh983a3no34llkl}
 
   jackson:
     serialization:

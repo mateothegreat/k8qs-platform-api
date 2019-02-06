@@ -22,7 +22,7 @@ public class QuestionCategoriesController {
 
     }
 
-    @GetMapping
+    @GetMapping("/list")
     ResponseEntity<Page<QuestionCategory>> findAll(Pageable pageable) {
 
         return new ResponseEntity<>(questionCategoriesService.findAll(pageable), HttpStatus.OK);

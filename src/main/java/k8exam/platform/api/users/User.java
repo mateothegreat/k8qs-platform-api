@@ -2,7 +2,6 @@ package k8exam.platform.api.users;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
@@ -27,7 +26,7 @@ import java.util.UUID;
 
 @Data
 @Entity
-@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
+//@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 @Table(name = "users", uniqueConstraints = {@UniqueConstraint(columnNames = {"email"})})
 public class User implements UserDetails {
 
@@ -43,6 +42,7 @@ public class User implements UserDetails {
 
     @ManyToOne(optional = false, fetch = FetchType.LAZY)
     @JsonManagedReference
+    @JsonIgnore
     private Organization organization;
 
     @ManyToMany(cascade = CascadeType.ALL)
@@ -55,20 +55,12 @@ public class User implements UserDetails {
     private Status status;
 
     public String email;
-    public String phone;
     public String username;
 
-    //    @JsonIgnore
+    @JsonIgnore
     private String password;
     public  String firstname;
     public  String lastname;
-
-    public String street1;
-    public String street2;
-    public String city;
-    public String state;
-    public String zip;
-    public String country;
 
     @Transient
     public Long organization_id;
@@ -88,14 +80,17 @@ public class User implements UserDetails {
     @JsonIgnore
     private String confirmEmailToken;
 
+    @JsonIgnore
     private Boolean isConfirmed;
+    @JsonIgnore
     private Boolean isAdmin;
 
+    @JsonIgnore
     private Boolean enabled = true;
 
-    private Boolean permissionUsersManage       = true;
-    private Boolean permissionBillingManage     = true;
-    private Boolean permissionSubaccountsManage = true;
+    @JsonIgnore
+    private Boolean permissionUsersManage = true;
+
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {

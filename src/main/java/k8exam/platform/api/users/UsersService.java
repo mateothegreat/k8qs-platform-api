@@ -27,15 +27,8 @@ public class UsersService {
         if (principalUser.isPresent()) {
 
             principalUser.get().setEmail(user.getEmail());
-            principalUser.get().setPhone(user.getPhone());
             principalUser.get().setFirstname(user.getFirstname());
             principalUser.get().setLastname(user.getLastname());
-            principalUser.get().setStreet1(user.getStreet1());
-            principalUser.get().setStreet2(user.getStreet2());
-            principalUser.get().setCity(user.getCity());
-            principalUser.get().setState(user.getState());
-            principalUser.get().setZip(user.getZip());
-            principalUser.get().setCountry(user.getCountry());
 
             return Optional.of(usersRepository.save(principalUser.get()));
 
@@ -79,12 +72,6 @@ public class UsersService {
 
                 }
 
-                if (user.getPhone() != null) {
-
-                    optionalUser.get().setPhone(user.getPhone());
-
-                }
-
                 if (user.getFirstname() != null) {
 
                     optionalUser.get().setFirstname(user.getFirstname());
@@ -97,57 +84,9 @@ public class UsersService {
 
                 }
 
-                if (user.getStreet1() != null) {
-
-                    optionalUser.get().setStreet1(user.getStreet1());
-
-                }
-
-                if (user.getStreet2() != null) {
-
-                    optionalUser.get().setStreet2(user.getStreet2());
-
-                }
-
-                if (user.getCity() != null) {
-
-                    optionalUser.get().setCity(user.getCity());
-
-                }
-
-                if (user.getState() != null) {
-
-                    optionalUser.get().setState(user.getState());
-
-                }
-
-                if (user.getZip() != null) {
-
-                    optionalUser.get().setZip(user.getZip());
-
-                }
-
-                if (user.getCountry() != null) {
-
-                    optionalUser.get().setCountry(user.getCountry());
-
-                }
-
                 if (user.getPermissionUsersManage() != null) {
 
                     optionalUser.get().setPermissionUsersManage(user.getPermissionUsersManage());
-
-                }
-
-                if (user.getPermissionBillingManage() != null) {
-
-                    optionalUser.get().setPermissionBillingManage(user.getPermissionBillingManage());
-
-                }
-
-                if (user.getPermissionSubaccountsManage() != null) {
-
-                    optionalUser.get().setPermissionSubaccountsManage(user.getPermissionSubaccountsManage());
 
                 }
 
